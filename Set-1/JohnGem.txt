@@ -1,0 +1,12 @@
+John has discovered various rocks. 
+Each rock is composed of various elements, and each element is represented by a lower-case Latin letter from 'a' to 'z'. 
+An element can be present multiple times in a rock. An element is called a gem-element if it occurs at least once in each of the rocks.
+
+Given the list of  rocks with their compositions, find the number of gem-elements that exist in those rocks.
+
+The method should be backed with unit tests
+
+i/p - An array/list of strings.
+o/p - An integer ( number of gem-elements)
+
+Example - i/p - abcdde,baccd,eeabg o/p - 2

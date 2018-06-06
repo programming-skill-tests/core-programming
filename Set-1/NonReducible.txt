@@ -1,0 +1,13 @@
+Shil has a string, S, consisting of N lowercase English letters. 
+In one operation, he can delete any pair of adjacent letters with same value. 
+For example, string "aabcc" would become either "aab" or "bcc" after  operation.
+
+Shil wants to reduce  as much as possible. To do this, he will repeat the above operation as many times as it can be performed. 
+Help Shil out by finding and printing 's non-reducible form and how many operations are required.
+
+The method should be backed with unit tests.
+
+input - The string s
+output - An object with reduced string and number of operation
+
+Example - i/p - aaabccddd o/p - object with reduced string as abd and number of operation as 3

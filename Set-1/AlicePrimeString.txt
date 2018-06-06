@@ -1,0 +1,10 @@
+Alice has just learnt about primeStrings. 
+A string is a primeString if the number of distinct alphabets used in the string is a prime and also the number of occurrences of each alphabet in the string is also a prime.
+Given a String you need to write a method which tells if it is a primeString or not.
+Method should be backed with unit tests.
+
+Input - The method should accept a string.
+Output -  The method should return "Yes" if string is prime else should return "No" without quotes.
+
+Example - i/p - ababb o/p - Yes
+	  i/p - abcab o/p - No

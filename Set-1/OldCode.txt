@@ -1,0 +1,13 @@
+You are converting an old code for a new version of the compiler.
+
+In the old code we have used "->" for pointers. 
+But now we have to replace each "->" with a ".". But this replacement shouldn't be done inside commments. 
+A comment is a string that starts with "//".
+
+Write a method for the same backed with unit tests.
+
+input - An array/list of strings.
+ouput - An array/list of Strings.
+
+Example - i/p - int t; //variable t, t->a=0;  //t->a does something, return 0;
+	  o/p - int t; //variable t, t->a=0;  //t->a does something, return 0;
