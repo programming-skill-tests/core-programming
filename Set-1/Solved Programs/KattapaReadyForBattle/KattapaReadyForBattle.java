@@ -1,30 +1,37 @@
 package com.problems;
 
+import java.util.logging.Logger;
+
 public class KattapaReadyForBattle {
 
-    public static String isReadForBattle(int n,int[] nums){
+    public static String isReadyForBattle(int n,int[] soldierWeapons){
     	
-       int evencount=0,oddcount=0;
+    	/** The logger. */
+	   Logger logger = Logger.getLogger(KattapaReadyForBattle.class.getName());
+	    
+       int evenWeapons=0,oddWeapons=0;
        
         for(int i=0;i < n; i++){
         	
-            if(nums[i]%2==0){
+            if(soldierWeapons[i]%2 == 0){
             	
-                evencount++;
+            	evenWeapons++;
                 
             }else{
             	
-                oddcount++;
+            	oddWeapons++;
                 
             }
         }
-        if(evencount > oddcount){
+        if(evenWeapons > oddWeapons){
         	
+        	logger.info("READY FOR BATTLE");
             return "READY FOR BATTLE";
             
         }
         else{
         	
+        	logger.info("NOT READY");
             return "NOT READY";
             
         }
